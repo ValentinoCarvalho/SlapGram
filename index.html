@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlapGram</title>
+
+    <link rel="icon" href="./asssets/faviconBeta.png">
+
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="moodBox_container">
+
+        <section class="moodBox_profile">
+
+            <label for="moodBox_profileImage_input">
+                <img class="moodBox_profileImage" src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/no-profile-picture-icon.png" alt="" id="moodBox_profileImage_imgTag"></label>
+            <input type="file" id="moodBox_profileImage_input">
+
+            <h2 class="moodBox_profile_update">Update</h2>
+
+        </section>
+
+
+        <section class="moodBox">
+
+            <input type="text" id="moodBox_userName" placeholder="Usuário...">
+
+            <textarea contenteditable="true" name="" id="messageBox" cols="30" rows="10" autocomplete="off"
+                placeholder="Nota"></textarea>
+
+            <div class="inputMood">
+                <label for="inputMood_tag" class="inputMood_tagLabel">Me sentindo:</label>
+                <input type="text" id="inputMood_tag" autocomplete="off" placeholder="Humor">
+
+            </div>
+        </section>
+
+    </section>
+
+    <script src="./index.js" defer></script>
+</body>
+
+</html>
